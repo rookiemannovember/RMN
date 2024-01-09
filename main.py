@@ -1,6 +1,5 @@
 #!/usr/bin/python
-# python console for OnlyRAT
-# created by : C0SM0
+
 
 # imports
 import os
@@ -25,8 +24,7 @@ o0    _o0"` '`   NN    NN Ll  Yy,yYY  '^%%&VGh%%%%%&&"^%_,,       "%%%,_      _,
 0o,_,oo0"        NN    NN Ll   `YyY`    ``'"lIG9ubHkg,,""''`        ""%%>_,;VyIG5lZ;,   
 "00O"`                                          ``'``""UkFUIHlvdSdsbCBldm;"       `"WQ=,
 
-                 [::] The Only RAT You'll Ever Need [::]
-                    [::] Created By : Blue Cosmo [::]
+                 
 """
 
 # help menu
