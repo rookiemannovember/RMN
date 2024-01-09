@@ -1,14 +1,12 @@
 #!/bin/bash
-# installer for OnlyRAT
-# created by : C0SM0
 
 # staging
 echo [*] Staging process...
-mkdir ~/.MK01-OnlyRAT
+mkdir ~/.RMN
 cd ..
-mv MK01-OnlyRAT/* ~/.MK01-OnlyRAT
-rm -rf MK01-OnlyRAT
-cd ~/.MK01-OnlyRAT
+mv RMN/* ~/.RMN
+rm -rf RMN
+cd ~/.RMN
 echo [+] Completed
 
 #  get tools
@@ -20,11 +18,11 @@ echo [+] Completed
 
 # set up alias workflow
 echo [*] Setting up alias...
-echo "alias onlyrat=\"python3 $(pwd)/main.py\"" >> ~/.bashrc
-echo "alias onlyrat=\"python3 $(pwd)/main.py\"" >> ~/.zshrc
+echo "alias rmn=\"python3 $(pwd)/main.py\"" >> ~/.bashrc
+echo "alias rmn=\"python3 $(pwd)/main.py\"" >> ~/.zshrc
 echo [+] Completed
 
 # clean up
 echo [+] Installation Completed
 echo "- please restart your terminal"
-echo "- type 'onlyrat' to launch OnlyRat"
+echo "- type 'rmn' to launch OnlyRat"
